@@ -1,0 +1,36 @@
+footer{
+background-color: #000;
+margin: 0;
+    figure{
+        margin: 0; 
+        img{
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+    .container-footer{
+        color: #fff;
+        display: flex;
+        padding: 45px 250px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .infos{
+            margin: 25px 0px;
+            display: flex;
+            flex-direction: column;
+            
+            span{
+                margin: 10px 0px;
+            }
+        }
+        .footer-social{
+            text-align: center;
+            .social-icons{
+                margin-top: 15px;
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    }
+}
