@@ -1,0 +1,14 @@
+
+<ul>
+    <li><b>{{title}}</b></li>
+    <li><b>{{ageUser}}</b></li>
+    <li>
+      <button mat-mini-fab color="primary" class="decremento" (click)="removeItem()">
+        <mat-icon matSuffix>remove</mat-icon>
+      </button>
+      <span class="campo-quantidade">{{countItem}}</span>
+      <button mat-mini-fab color="primary" class="incremento" (click)="addItem()">
+        <mat-icon matSuffix >add</mat-icon>
+      </button>
+    </li>
+</ul>

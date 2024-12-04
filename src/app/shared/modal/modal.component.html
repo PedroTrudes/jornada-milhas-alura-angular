@@ -1,0 +1,23 @@
+<section class="modal-container">
+  <div mat-dialog-content>
+    <h2><b>Viajante</b></h2>
+    <div class="selecao-idade">
+      <app-botao-controle title="Adultos" ageUser="(Acima de 12 anos)"></app-botao-controle>
+      <app-botao-controle title="Crianças" ageUser="(Entre 2 e 11 anos)"></app-botao-controle>
+      <app-botao-controle title="Bebês" ageUser="(Até 2 anos)"></app-botao-controle>
+    </div>
+  </div>
+  <div mat-dialog-content>
+    <h2><b>Categoria</b></h2>
+    <div>
+          <mat-chip-listbox aria-label="Fish selection">
+            <mat-chip-option selected>ECONÔMICA</mat-chip-option>
+            <mat-chip-option>Executiva</mat-chip-option>
+        </mat-chip-listbox>
+    </div>
+  </div>
+  <div class="action-button">
+    <button mat-raised-button mat-dialog-close class="secundary-color">Cancelar</button>
+    <button mat-raised-button color="primary">Aplicar</button>
+  </div>
+</section>

@@ -1,0 +1,21 @@
+.modal-container{
+    .selecao-idade{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+    .action-button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        button{
+            width: 45%;
+            margin: 45px 15px ;
+            
+        }
+        .secundary-color{
+            background-color: #E8DEF8;
+        }
+    }
+}

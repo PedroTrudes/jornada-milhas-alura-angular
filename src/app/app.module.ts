@@ -23,7 +23,10 @@ import { MatChipsModule } from '@angular/material/chips';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatDatepickerModule } from '@angular/material/datepicker';
-import { MatNativeDateModule } from '@angular/material/core';
+import { MatNativeDateModule } from '@angular/material/core';//Para poder rodar o datapicker
+import { MatDialogModule } from '@angular/material/dialog';
+import { ModalComponent } from './shared/modal/modal.component';
+import { BotaoControleComponent } from './shared/botao-controle/botao-controle.component';
 
 
 @NgModule({
@@ -38,7 +41,9 @@ import { MatNativeDateModule } from '@angular/material/core';
     NotFoundComponent,
     CardBuscaComponent,
     CardDepoimentComponent,
-    FormBuscaComponent
+    FormBuscaComponent,
+    ModalComponent,
+    BotaoControleComponent
   ],
   imports: [
     MatToolbarModule,
@@ -53,7 +58,8 @@ import { MatNativeDateModule } from '@angular/material/core';
     MatFormFieldModule,
     MatInputModule,
     MatDatepickerModule,
-    MatNativeDateModule
+    MatNativeDateModule,
+    MatDialogModule
   ],
   providers: [],
   bootstrap: [AppComponent]
